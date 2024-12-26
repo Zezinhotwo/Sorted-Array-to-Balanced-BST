@@ -1,3 +1,4 @@
+export { };
 interface TreeNode {
     data: number;
     left: TreeNode | null;
@@ -7,7 +8,7 @@ function sortedArrayToBSTRecur(arr: number[], start: number, end: number) {
 
     if (start > end) return null;
 
-    let mid: number = start + Math.floor((end - start )/ 2);
+    let mid: number = start + Math.floor((end - start) / 2);
 
     let root: TreeNode | null = No(arr[mid]);
 

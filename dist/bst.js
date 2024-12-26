@@ -1,4 +1,3 @@
-"use strict";
 function sortedArrayToBSTRecur(arr, start, end) {
     if (start > end)
         return null;
@@ -24,3 +23,4 @@ function No(data) {
 const arr = [10, 20, 30];
 const root = sortedArrayToBST(arr);
 preOrder(root);
+export {};
